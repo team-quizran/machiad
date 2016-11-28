@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "MachiAd",
+  "launch_path": "index.html",
+  "description": "Advertise "machi" with your photos and catchphrases.",
+  "developer": {
+    "name": "team-quizran",
+    "url": "https://github.com/team-quizran"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "MachiAd",
+      "description": "Advertise "machi" with your photos and catchphrases."
+    }
+  }
+}

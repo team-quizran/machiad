@@ -1,0 +1,26 @@
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.demo-card-wide {
+  margin-bottom: 48px;
+  position:relative;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 300px;
+/*  background: url('../assets/demos/welcome_card.jpg') center / cover;*/
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.demo-card-place {
+  background-color: black;
+  opacity: 0.8;
+}

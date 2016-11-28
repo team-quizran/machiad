@@ -1,0 +1,7 @@
+{
+  "name": "MachiAd",
+  "short_name": "MachiAd",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}

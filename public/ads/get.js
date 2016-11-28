@@ -1,0 +1,6 @@
+function e(a,b,c){this.f=b;this.g=a;this.c=0;this.h=c;this.a="";f(this);this.b=!1}function f(a){var b=a.c%a.f.length,c=a.f[b],b=parseInt(a.h[b],10)||2E3;a.a=a.b?c.substring(0,a.a.length-1):c.substring(0,a.a.length+1);"<"!=a.a.slice(-1)&&(a.g.innerHTML='<span class="wrap">'+a.a+"</span>");var d=200-100*Math.random();a.b&&(d/=2);a.b||a.a!==c?a.b&&""===a.a&&(a.b=!1,a.c++,d=500):(d=b,a.b=!0);setTimeout(function(){f(a)},d)}
+var aditforwardonload=function(){
+document.getElementsByClassName("ad-forward")[0].innerHTML='<a href="" class="typewrite"></a>';for(var a=document.getElementsByClassName("typewrite"),b=0;b<a.length;b++){
+var c=[["昼の景色<br>夜の景色<br>二度楽しめる場所", "[室蘭]潮見公園展望台"], [3000, 10000]];
+c[0]&&new e(a[b],c[0],c[1])}a=document.createElement("style");a.type="text/css";a.innerHTML=".ad-forward {border:solid thin; background-image: url('https://machiad.herokuapp.com/ads/colorkujirans.gif'); background-repeat: no-repeat;background-position : "+Math.floor(Math.random()*100)+"% "+Math.floor(Math.random()*100)+"%;text-align: right; border: 5px solid #666666;height:5em;}.ad-forward a {text-decoration:none;color: #4285f4 ;} .typewrite > .wrap { border-right: 0.08em solid #fff}";document.body.appendChild(a)};
+window.addEventListener("load", aditforwardonload, false);

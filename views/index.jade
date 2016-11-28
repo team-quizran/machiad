@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  - for val in ads
+      div(class="demo-card-wide mdl-shadow--2dp" style="")
+        a(class="mdl-card__title" style="background:url('#{val.imageUrl}');background-size: cover;background-repeat:no-repeat;" href="#{val.imageUrl}")
+          h2(class="demo-card-place mdl-card__title-text") #{val.placeName}
+        div(class="mdl-card__supporting-text") #{val.catchcopy}
+        div(class="mdl-card__actions mdl-card--border") 
+          a(class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#{val.placeUrl}") さらに詳しく
